@@ -5,11 +5,10 @@
     box-sizing: border-box;
   }
 
-  .wrapper {
+  .fonthelper{
     display:flex;
     flex-direction: column;
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-    margin:10px;
   }
 
   .nav_bar {
@@ -121,4 +120,9 @@
 
 .main{
     margin-left: 20px;
+}
+
+.nav_links{
+    color: white;
+    text-decoration: none;
 }
