@@ -1,57 +1,101 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='UTF-8'/>
-    <meta name="viewport"
-    content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <title>Some Web Page</title>
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
+
   <body>
-      <div class="fonthelper">
-      <div class='nav_bar'>
-          <p><strong>Moleke Adewole Lab 3: Flexbox Demo</strong></p>
+    <div class="fonthelper">
+      <div class="nav_bar">
+        <p><strong>Moleke Adewole Lab 3: Flexbox Demo</strong></p>
       </div>
-    <div class='menu-container'>
-      <div class='menu'>
-        <div>Sept 29, 2021</div>
-        <div class = 'links'>
-        <div class='demos'><a href = 'data.html' style = 'text-decoration: none;' class = 'nav_links'>Database Demos</a></div> 
-        <div class='main'><a href = 'index.html' style = 'text-decoration: none;' class = 'nav_links'>Main Page</a></div>
+      <div class="menu-container">
+        <div class="menu">
+          <div>Sept 29, 2021</div>
+          <div class="links">
+            <div class="demos">
+              <a
+                href="data.html"
+                style="text-decoration: none"
+                class="nav_links"
+                >Database Demos</a
+              >
+            </div>
+            <div class="main">
+              <a
+                href="index.html"
+                style="text-decoration: none"
+                class="nav_links"
+                >Main Page</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class='header-container'>
-        <div class='header'>
-            <div class='group_project'><a href = '#' style ='text-decoration: none;'>Group Project Link (no site yet)</a></div>
-            <div class='logo'><img src='images/images/awesome-logo.svg'/></div>
-            <div class='mygithub'><a href = 'https://github.com/madewole1/INST377-Lab-Work' style ='text-decoration: none;'>My GitHub</a></div>
+      <div class="header-container">
+        <div class="header">
+          <div class="group_project">
+            <a href="#" style="text-decoration: none"
+              >Group Project Link (no site yet)</a
+            >
+          </div>
+          <div class="logo"><img src="images/images/awesome-logo.svg" /></div>
+          <div class="mygithub">
+            <a
+              href="https://github.com/madewole1/INST377-Lab-Work"
+              style="text-decoration: none"
+              >My GitHub</a
+            >
+          </div>
         </div>
       </div>
-  <div class='photo-grid-container'>
-    <div class='photo-grid'>
-      <div class='photo-grid-item first-item'>
-        <img src='images/images/one.svg'/>
+      <div class="photo-grid-container">
+        <div class="photo-grid">
+          <div class="carousel">
+            <div class="carousel_item carousel_item--visible">
+              <div class="photo-grid-item first-item">
+                <img src="images/images/one.svg" />
+              </div>
+              <div class="carousel_item">
+              <div class="photo-grid-item">
+                <img src="images/images/two.svg" />
+              </div>
+            </div>
+            <div class="carousel_item">
+              <div class="photo-grid-item">
+                <img src="images/images/three.svg" />
+              </div>
+            </div>
+              <div class="photo-grid-item">
+                <img src="images/images/four.svg" />
+              </div>
+              <div class="carousel_item"></div>
+              <div class="photo-grid-item last-item">
+                <img src="images/images/five.svg" />
+              </div>
+              <div class="carousel_actions">
+                <button id="carousel_button--prev">Previous slide</button>
+                <button id="carousel_button--next">Next slide</button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class='photo-grid-item'>
-        <img src='images/images/two.svg'/>
-      </div>
-      <div class='photo-grid-item'>
-        <img src='images/images/three.svg'/>
-      </div>
-    <div class='photo-grid-item'>
-        <img src='images/images/four.svg'/>
-      </div>
-      <div class='photo-grid-item last-item'>
-        <img src='images/images/five.svg'/>
+      <script src="app.js"></script>
+
+      <div class="footer">
+        <div class="footer-item footer-one">footer item 1</div>
+        <div class="footer-item footer-two">footer item 2</div>
+        <div class="footer-item footer-three">footer item 3</div>
       </div>
     </div>
-  </div>
-  <div class='footer'>
-    <div class='footer-item footer-one'>footer item 1</div>
-    <div class='footer-item footer-two'>footer item 2 </div>
-    <div class='footer-item footer-three'>footer item 3</div>
-  </div>
-</div>
-</body>
+  </body>
 </html>
